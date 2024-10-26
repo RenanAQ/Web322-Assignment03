@@ -6,8 +6,8 @@ I declare that this assignment is my own work in accordance with Seneca  Academi
 Name: Renan de Alencar Queiroz
 Student ID: 129280236
 Date: Oct 30, 2024
-Replit Web App URL: https://e000a932-a81f-45bc-8f20-7db9d4c2ed7a-00-1qzx6p1k4unjw.kirk.replit.dev/
-GitHub Repository URL: https://github.com/RenanAQ/Web322.git
+Replit Web App URL: https://947ceb8b-aaa6-4937-979d-f1d312c8d55f-00-1th1lbfwmcru8.picard.replit.dev/
+GitHub Repository URL: https://github.com/RenanAQ/Web322-Assignment03.git
 
 ********************************************************************************/
 
