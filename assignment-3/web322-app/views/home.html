@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Latest compiled and minified Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    
+
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/home">WEB322 - Renan Queiroz</a>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/shop">Shop</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/items">Items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/categories">Categories</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <div class="container" style="padding-top: 90px">
+      <div class="row">
+        <aside class="col-md-3">
+          <h2>Coming Soon</h2>
+          <p>
+            We are thrilled to announce that we will soon be expanding into real
+            estate operations! Starting soon, we’ll be offering a range of real
+            estate services to help you find your dream property or make the
+            most of your investments.
+          </p>
+          <img src="/img/logo-realstate.webp" width="90%" alt="logo" />
+          <h2>Our partners</h2>
+          <img src="/img/logo.webp" width="90%" alt="logo" />
+        </aside>
+        <section class="main col-md-9">
+          <article>
+            <h2>We are happy to have you here!</h2>
+            <p>
+              Welcome to Drop Shot Tennis Store AND MORE, your one-stop shop for
+              all your home, electronics, clothing, sports, and pet needs! At
+              Drop Shot Tennis Store AND MORE, we believe in providing quality
+              products at competitive prices to make your life easier, more
+              comfortable, and enjoyable.
+            </p>
+            <p>
+              Whether you’re sprucing up your home and garden, looking for the
+              latest gadgets, updating your wardrobe, or getting ready for your
+              next outdoor adventure, we’ve got you covered. We also know how
+              much you care about your furry friends, which is why we offer a
+              wide selection of pet products to keep them happy and healthy.
+            </p>
+            <p>
+              Our team is dedicated to offering exceptional customer service,
+              helping you find the products that best meet your needs. From
+              practical everyday items to specialty goods, we carefully select
+              our offerings to bring you the best of quality, style, and
+              affordability.
+            </p>
+            <p>
+              Thank you for choosing us! We look forward to serving you and
+              helping you create your perfect lifestyle!
+            </p>
+          </article>
+          <h1>Check our hot deals!</h1>
+          <!--Products sample-->
+          <nav id="menu">
+            <!-- Dynamically create your menu category buttons here -->
+          </nav>
+          <!-- Container for product cards -->
+          <div id="main-content"></div>
+          <!-- Main App JavaScript File -->
+          <script src="/js/home.js"></script>
+          <!-- Form Newsletter-->
+          <form class="form-newsletter" id="myForm">
+            <h1>Newsletter Sign-Up</h1>
+            <p>
+              Be the first to know about upcoming sale events, product launches,
+              exclusive deals and promotions.
+            </p>
+            <div class="form-email">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                name="email"
+                required
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="form-name">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <button type="submit" class="btn btn-primary">Sign-Up</button>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <!-- Latest compiled and minified Bootstrap 5 JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
